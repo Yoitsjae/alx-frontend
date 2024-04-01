@@ -1,0 +1,8 @@
+/* styles/29-style.css */
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: var(--color-dark-grey);
+  color: white;
+}

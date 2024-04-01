@@ -1,0 +1,6 @@
+/* styles/22-style.css */
+@media screen and (max-width: 600px) {
+  [class^="col-"] {
+      width: 100%;
+  }
+}

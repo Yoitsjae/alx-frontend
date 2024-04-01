@@ -1,0 +1,5 @@
+/* styles/21-style.css */
+[class^="col-"] {
+  float: left;
+  padding: calc(var(--font-size-medium) / 2);
+}

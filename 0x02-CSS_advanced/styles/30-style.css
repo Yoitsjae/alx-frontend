@@ -1,0 +1,22 @@
+/* styles/30-style.css */
+/* Navbar */
+.navbar {
+  overflow: hidden;
+  background-color: var(--color-dark-grey);
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: var(--color-primary);
+  color: white;
+}

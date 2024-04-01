@@ -1,0 +1,6 @@
+/* styles/20-style.css */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}

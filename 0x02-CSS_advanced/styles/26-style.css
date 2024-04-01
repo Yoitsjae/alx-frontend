@@ -1,0 +1,13 @@
+/* styles/26-style.css */
+/* Grid container */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+/* Grid item */
+.grid-item {
+  padding: 20px;
+  text-align: center;
+}

@@ -1,0 +1,16 @@
+/* styles/13-style.css */
+a[href]:not([href^="#"]) {
+  text-decoration: none;
+}
+
+a:visited {
+  font-style: italic;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: var(--color-light-grey);
+}

@@ -1,0 +1,14 @@
+/* styles/27-style.css */
+/* Three columns side by side */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
