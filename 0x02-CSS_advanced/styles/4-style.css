@@ -1,13 +1,10 @@
 /* styles/4-style.css */
-:root {
-  --font-family-base: Helvetica Neue, Helvetica, Arial, sans-serif;
-  --font-family-title: Helvetica Neue, Helvetica, Arial, sans-serif;
+.card-category,
+.section-tagline {
+    color: var(--color-primary);
 }
 
 body {
-  font-family: var(--font-family-base);
+    color: var(--text-color);
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-family-title);
-}
