@@ -1,13 +1,15 @@
-/* styles/4-style.css */
+/* Targeting the root element and defining custom font-family properties */
 :root {
   --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+/* Setting body's font-family to font-family-base */
 body {
   font-family: var(--font-family-base);
 }
 
+/* Setting font-family for section headings */
 h1,
 h2,
 h3,
