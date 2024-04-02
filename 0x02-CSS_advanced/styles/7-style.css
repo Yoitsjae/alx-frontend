@@ -1,11 +1,2 @@
-/* Adding Open Sans as the first choice font for font-family-base */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
-/* Adding Raleway as the first choice font for font-family-title */
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
-/* Targeting the root element and defining custom font-family properties */
-:root {
-  --font-family-base: 'Open Sans', sans-serif;
-  --font-family-title: 'Raleway', sans-serif;
-}
+/* styles/7-style.css */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
