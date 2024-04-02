@@ -17,11 +17,11 @@
 }
 
 .button:hover {
-  transition: background-color var(--transition-duration) var(--transition-cubic-bezier),
-              color var(--transition-duration) var(--transition-cubic-bezier);
+  transition: color var(--transition-duration) var(--transition-cubic-bezier),
+              background-color var(--transition-duration) var(--transition-cubic-bezier);
 }
 
-.card-work:hover .card-image,
+.card-work .card-image,
 .card-work .card-inner {
   transition: var(--transition-duration) var(--transition-cubic-bezier);
 }

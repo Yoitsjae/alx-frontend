@@ -1,8 +1,19 @@
 /* styles/29-style.css */
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: var(--color-dark-grey);
-  color: white;
+.nav .nav-item .nav-link:hover::before {
+  background-color: var(--color-white);
+}
+
+.nav .nav-item .nav-link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 20%;
+  background-color: var(--color-white);
+}
+
+.nav .nav-item:hover .nav-link::before {
+  background-color: var(--color-primary);
+  width: 100%;
 }
